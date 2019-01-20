@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Altium_Projects\Kintex_SDR\MotherBoard.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=motherboard-roundholes.txt|DrillLayers=gtl,g2,g3,g4,g5,g6,g7,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=motherboard-slotholes.txt|DrillLayers=gtl,g2,g3,g4,g5,g6,g7,gbl

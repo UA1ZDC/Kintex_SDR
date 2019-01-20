@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: D:\Altium_Projects\Kintex_SDR\MotherBoard.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=PowerLine|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=HV|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Not_Plated_Hole|Scope=Board|Minimum=9.84
