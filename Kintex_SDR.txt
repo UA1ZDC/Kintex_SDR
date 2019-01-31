@@ -1,122 +1,81 @@
-﻿Field=#~Integer~#~50|Field=P/N~String~P/N~144|Field=Name~String~Name~112|Field=LibRef~String~LibRef~85|Field=Description~String~Description~161|Field=Footprint~String~Footprint~111|Field=Layer~String~Layer~54|Field=Designator~String~Designator~309|Field=Value~String~Value~53|Field=Voltage~String~Voltage~88|Field=Quantity~Integer~Quantity~55|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Kintex_SDR.PrjPcb|ReportField=ProjectFullPath~D:\Altium_Projects\Kintex_SDR\Kintex_SDR.PrjPcb|ReportField=Title~Bill of Materials For Project [Kintex_SDR.PrjPcb] (PCB Document : MotherBoard.PcbDoc)|ReportField=TotalQuantity~554|ReportField=ReportTime~16:18:54|ReportField=ReportDate~31.12.2018|ReportField=ReportDateTime~31.12.2018 16:18:54|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=CurrentDate~31.12.2018|ReportField=CurrentTime~16:08:51|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Altium_Projects\Kintex_SDR\Codec's.SchDoc|ReportField=DocumentName~Codec's.SchDoc|ReportField=DocumentNumber~ВКА.821011.000.ПЗ|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~27.11.2018|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=False:CenterVertical=False:PrintScale=0.98:XCorrection=0.00:YCorrection=0.00:PrintKind=1:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=4200:PaperWidth=2970:Scale=100:PaperSource=7:PrintQuality=600:MediaType=1:DitherType=10:PrintScaleMode=1:PaperKind=A3:PaperIndex=8|ReportField=ProjectName~Kintex_SDR.PrjPcb|ReportField=Revision~|ReportField=Rule~Undefined|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~{Наименование}|ReportField=DocumentType~Схема электрическая|ReportField=DocumentType1str~|ReportField=DocumentType2str~|ReportField=EngineerName~|ReportField=Letter1Column~|ReportField=Letter2Column~|ReportField=Letter3Column~|ReportField=Mass~{М.}|ReportField=NormInspection~|ReportField=ProcessInspection~|ReportField=Scale~{Мш.}|ReportField=Title1str~|ReportField=Title2str~|ReportField=DataSourceFileName~Kintex_SDR.PrjPcb|ReportField=DataSourceFullPath~D:\Altium_Projects\Kintex_SDR\Kintex_SDR.PrjPcb|ReportField=PCBDataSourceFileName~MotherBoard.PcbDoc|ReportField=PCBDataSourceFullPath~D:\Altium_Projects\Kintex_SDR\MotherBoard.PcbDoc
-1||Mini-Fit Power Connector|HDR 2x2 miniFit|2x2 miniFit DC Power Connector|2x2 PWR_HDR|Top|X1||12V|1
-2||0826-1X1T-23-F|0826-1X1T-23-F|Gigabit Ethernet Single Port with LEDs|0826-1X1T-23-F|Top|X6|||1
-3||B3FS-1000|Button|Tactile Switch (SMT)|B3FS-1000|Top|SB1||24V|1
-4|GRM1555C1E220JA01D||CAP|SMD Capacitor|C0402|Bottom|C288, C289|22pF|25V|2
-5|GRM1555C1E2R2BA01D||CAP|SMD Capacitor|C0402|Bottom|C182, C184, C187, C189|2.2pF|25V|4
-6|GRM1555C1H131JA01D||CAP|SMD Capacitor|C0402|Bottom|C19|130pF|50V|1
-7|GRM1555C1H390FA01D||CAP|SMD Capacitor|C0402|Bottom|C183, C185, C188, C190|39pF|50V|4
-8|GRM1555C1H510JA01D||CAP|SMD Capacitor|C0402|Bottom|C31|51pF|50V|1
-9|GRM155R70J105KA12D||CAP|SMD Capacitor|C0402|Top|C131, C193, C195, C246|1uF|6.3V|4
-10|GRM155R71C104KA88J||CAP|SMD Capacitor|C0402|Bottom, Top, Top, Top, Top, Top, Top, Top, Top, Bottom, Top, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Top, Top, Top, Top, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Top, Top, Top, Top, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom|C129, C130, C133, C134, C135, C136, C137, C138, C139, C141, C142, C143, C144, C145, C146, C147, C148, C149, C150, C151, C152, C153, C154, C155, C198, C199, C210, C211, C222, C223, C224, C225, C226, C227, C228, C229, C230, C231, C232, C233, C234, C235, C236, C243, C244, C245, C247, C254, C255, C256, C258, C279, C281, C290, C292, C299, C300, C301, C302, C303, C304, C305, C306, C307, C308, C309, C310, C311, C317, C318, C319, C320, C321, C322, C323, C324, C325, C326, C327, C328, C329, C330, C331|0.1uF|16V|83
-11|GRM155R71C224KA12D||CAP|SMD Capacitor|C0402|Bottom|C167|0.22uF|16V|1
-12|GRM155R71E103KA01D||CAP|SMD Capacitor|C0402|Bottom|C8, C9, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C60, C61, C62, C63, C64, C65, C66, C67, C68, C69, C70, C71, C72, C73, C74, C75, C76, C77, C83, C89, C90, C91, C92, C93, C94, C95, C96, C97, C98, C99, C100, C101, C102, C103, C104, C105, C106, C107, C113, C114, C115, C116, C117, C118, C156, C157, C158, C159, C160, C161, C164, C166, C168, C169, C170, C171, C172, C173, C174, C175, C181|10nF|25V|80
-13|GRM155R71H104KE14J||CAP|SMD Capacitor|C0402|Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Top, Top, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom|C7, C10, C11, C23, C186, C191, C192, C196, C282, C283, C284, C285, C286, C287|0.1uF|50V|14
-14|GRM155R71H822KA88D||CAP|SMD Capacitor|C0402|Bottom|C20, C32|8.2nF|50V|2
-15|GRM1555C1H101JA01D||CAP|SMD Capacitor|C0603|Bottom|C140|100pF|50V|1
-16|GRM1885C1H242JA01D||CAP|SMD Capacitor|C0603|Bottom|C30|2.4nF|50V|1
-17|GRM1885C1H472JA01D||CAP|SMD Capacitor|C0603|Bottom|C18|4.7nF|50V|1
-18|GRM188R60J106ME47J||CAP|SMD Capacitor|C0603|Top|C257, C280|10uF|6.3V|2
-19|GRM188R71A225KE15D||CAP|SMD Capacitor|C0603|Bottom|C194, C197|2.2uF|10V|2
-20|GRM188R71A474KA61D||CAP|SMD Capacitor|C0603|Bottom|C21, C22|0.47uF|10V|2
-21|GRM188R71C104KA01D||CAP|SMD Capacitor|C0603|Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Top, Top, Top, Top, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom|C33, C35, C55, C57, C78, C80, C84, C86, C108, C110, C119, C121, C124, C126, C162, C176, C178, C200, C202, C205, C207, C212, C214, C217, C219, C237, C239, C248, C250, C259, C261, C264, C266, C269, C271, C274, C276, C294, C296, C312, C314|0.1uF|16V|41
-22|GRM188R71H221KA01D||CAP|SMD Capacitor|C0603|Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Top, Top, Top, Top, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom, Bottom|C34, C36, C56, C58, C79, C81, C85, C87, C109, C111, C120, C122, C125, C127, C163, C177, C179, C201, C203, C206, C208, C213, C215, C218, C220, C238, C240, C249, C251, C260, C262, C265, C267, C270, C272, C275, C277, C295, C297, C313, C315|220pF|50V|41
-23|GRM21BR61H475KE51L||CAP uF|SMD Capacitor|C0805|Bottom|C12, C24|4.7uF|50V|2
-24|GRM21BR71A106KE51L||CAP uF|SMD Capacitor|C0805|Bottom|C13, C14, C26, C28|10uF|10V|4
-25|GRM32DR60J336ME19L||CAP uF|SMD Capacitor|C1210|Bottom|C132|33uF|6.3V|1
-26|GRM32ER60J107ME20L||CAP uF|SMD Capacitor|C1210|Top, Top, Top, Top, Top, Top, Top, Top, Top, Top, Bottom, Bottom, Top, Top, Top, Top, Top, Top, Top, Top|C37, C59, C82, C88, C112, C123, C128, C180, C204, C209, C216, C221, C263, C268, C273, C278, C291, C293, C298, C316|100uF|6.3V|20
-27|GRM32ER71A476KE15L||CAP uF|SMD Capacitor|C1210|Bottom|C16, C17, C27, C29, C165, C241, C242, C252, C253|47uF|10V|9
-28|GRM32ER71E226KE15L||CAP uF|SMD Capacitor|C1210|Bottom|C25|22uF|25V|1
-29|GRM32ER71H106KA12L||CAP uF|SMD Capacitor|C1210|Bottom|C1, C2, C3, C4, C15|10uF|50V|5
-30|||Test  Point||Control Point|Top|K1, K2, K3, K4, K5, K6|||6
-31||CVHD-950-100.000|CVHD-950|Crystal Oscillator|CVHD-950|Top|Q1||3.3V ±0.3V|1
-32||1.00mm Pitch Mezzanine 714362164|DBoard|USRP DBoard|DBoard|Top|X5|||1
-33||DC Power Connector|Connector DC|DC Power Connector 6mm|DC_CONNECTOR|Top|X2||12V|1
-34||B320A|Shottky|Schottky Diode|Diode_SMA|Top|VD2, VD3|||2
-35||B550C|Shottky|Schottky Diode|Diode_SMC|Bottom|VD4, VD5|||2
-36|EXB-24V101JX|EXB24V|RES 2x0402|Chip Resistor Array|EX24V|Bottom|R41|100||1
-37|EXB-24V201JX|EXB24V|RES 2x0402|Chip Resistor Array|EX24V|Bottom|R44, R48, R50|200||3
-38|EXB-24V270JX|EXB24V|RES 2x0402|Chip Resistor Array|EX24V|Top|R34|none||1
-39|EXB-24V510JX|EXB24V|RES 2x0402|Chip Resistor Array|EX24V|Top, Bottom, Bottom, Bottom, Bottom|R40, R117, R118, R119, R120|51||5
-40|EXB-24VR000X|EXB24V|RES 2x0402|Chip Resistor Array|EX24V|Top|R54, R57|0||2
-41|EXB-N8V202JX|EXBN8V|RES 4x0402|Chip Resistor Array|EXN8V|Bottom|R100, R106, R107, R113|2k||4
-42|EXB-N8V330JX|EXBN8V|RES 4x0402|Chip Resistor Array|EXN8V|Top|R103, R104, R110, R112, R114, R115|33||6
-43||XC7K160T-2FBG484C|XC7K160T-2FBG484C|Xilinx 7-Series FPGA|FBG484|Top|D7|||1
-44||Fast Fuse|FUSE|Chip SMD Fuse|Fuse|Top|F1||125V|1
-45||LM26420X|LM26420X|Synchronous  DC-DC Converter|HTSSOP-20|Top|D3, D5|||2
-46||JTAG Header 7x2|HDR Debug_14-pin|14-pin 2.54mm pitch PCB Header|JTAG Header 14-pin|Top|X3|||1
-47|LQW18ANR18G80D|LQW18|Inductor RF|Chip SMD Inductor|L0603|Top|L18, L20, L22, L24|180nH||4
-48|LQW18ANR27G80D|LQW18|Inductor RF|Chip SMD Inductor|L0603|Top|L17, L19, L21, L23|270nH||4
-49|LQM31PN1R0M00|LQM31PN1R0M00|Inductor LF|Inductor Power Lines|L1206_Murata|Bottom|L31, L37|1uH||2
-50|LQM32PN1R0MG0|LQM32PN1R0MG0|Inductor LF|Inductor Power Lines|L1210_Murata|Top, Top, Top, Bottom, Bottom, Bottom, Bottom|L16, L25, L26, L27, L28, L29, L30|1uH||7
-51|LQH32PN1R0NNC|LQH32PN1R0NNC|Inductor LF|Inductor Power Lines|L1210_Murata LQH|Top|L9, L10, L11, L12, L13, L14, L15, L32, L33, L34, L35, L36, L38, L39, L40, L41|1uH||16
-52|WP934EB/2GD||LED_PACK|LED Pack For Front Panel|LED_PACK|Top|H1, H2, H3|||3
-53||AD9516-4|AD9516|14-Output Clock Generator|LFCSP-64|Top|D8||2.5 V to 3.3 V|1
-54||AD9142ABCPZ|AD9142A|Dual, 16-Bit, 1600 MSPS, TxDAC+   Digital-to-Analog Converter|LFCSP_VQ-72|Top|D18||3.3V, 1.8V|1
-55|||Mechanical Via|Mechanical Via|Mechanical_Via|Bottom, Top|M1, M2|||2
-56||AD7922ARM|AD79x2|1 MSPS, 10-/12-Bit ADC|MSOP-8|Top|D23, D24||2.35 V to 5.25 V|2
-57||AD5663RBRMZ-5|AD56x3R|Dual 12-/14-/16-Bit nanoDAC|MSOP-10|Top|D25, D26||2.7 V to 5.5 V|2
-58||DP83865DVH|DP83865|10/100/1000 Ethernet Physical Layer|PQFP-128|Top|D27|||1
-59||LTC6409CUDB#TRMPBF|LTC6409|Differential Amplifier/ADC   Driver|QFN-10|Top|D16, D17||2.7V to 5.25V|2
-60||LTC2185CUP#PBF-ND|LTC2185|Dual 16-Bit, 125Msps  Low Power 3V ADC|QFN-64|Top|D15||Single 1.8V Supply|1
-61||Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R30, R36|none||2
-62|ERJ-2GE0R00X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R93|NONE||1
-63|ERJ-2GEJ101X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom, Bottom, Top, Top, Bottom|R74, R89, R94, R95, R96|100||5
-64|ERJ-2GEJ102X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top, Bottom, Bottom, Bottom, Bottom|R38, R92, R99, R101, R116|1k||5
-65|ERJ-2GEJ103X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom, Top|R42, R98|10k||2
-66|ERJ-2GEJ123X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R32|12k||1
-67|ERJ-2GEJ202X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R105, R122, R123|2k||3
-68|ERJ-2GEJ222X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom, Bottom, Bottom, Bottom, Top, Bottom, Top|R35, R37, R46, R47, R49, R53, R97|2.2k||7
-69|ERJ-2GEJ330X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top, Bottom, Bottom|R102, R126, R127|33||3
-70|ERJ-2GEJ331X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R56, R58, R108, R109|330||4
-71|ERJ-2GEJ391X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R31|390||1
-72|ERJ-2GEJ5R1X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R13, R14|5.1||2
-73|ERJ-2GEJ680X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R43, R45, R51, R52, R55, R59, R124, R125|68||8
-74|ERJ-2RHD1500X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R62, R65, R77, R80|150||4
-75|ERJ-2RKD49R9X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R70, R71, R85, R86|49.9||4
-76|ERJ-2RKF1022X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top, Top, Top, Bottom, Bottom, Top, Bottom, Bottom|R5, R7, R10, R18, R19, R21, R27, R28|10.2k||8
-77|ERJ-2RKF1272X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R22|12.7k||1
-78|ERJ-2RKF1500X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R66, R67, R82, R83|150||4
-79|ERJ-2RKF1581X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R17|1.58k||1
-80|ERJ-2RKF1912X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R24|19.1k||1
-81|ERJ-2RKF1961X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R26|1.96k||1
-82|ERJ-2RKF2003X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R1, R2|200k||2
-83|ERJ-2RKF2152X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R12|21.5k||1
-84|ERJ-2RKF2430X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R63, R75, R78, R90|243||4
-85|ERJ-2RKF24R9X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top, Bottom|R29, R33|24.9||2
-86|ERJ-2RKF2551X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R11|2.55k||1
-87|ERJ-2RKF2742X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R3, R4|27.4k||2
-88|ERJ-2RKF27R4X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R68, R73, R81, R88|27.4||4
-89|ERJ-2RKF3162X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R23|31.6k||1
-90|ERJ-2RKF3163X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R16, R25|316k||2
-91|ERJ-2RKF36R5X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R69, R72, R84, R87|36.5||4
-92|ERJ-2RKF4121X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R61|4.12k||1
-93|ERJ-2RKF49R9X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R39|49.9||1
-94|ERJ-2RKF5101X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R60|5.1k||1
-95|ERJ-2RKF6041X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R6, R8|6.04k||2
-96|ERJ-2RKF6653X|Chip SMD Resistor|RES|SMD Resistor|R0402|Top|R9, R20|665k||2
-97|ERJ-2RKF86R6X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R64, R76, R79, R91|86.6||4
-98|ERJ-2RKF9311X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R15|9.31k||1
-99|ERJ-2RKF9761X|Chip SMD Resistor|RES|SMD Resistor|R0402|Bottom|R128|9.76k||1
-100||TPS54332|TPS54332|Step-Down DC-DC Converter|R-PDSO-G8|Top|D4, D6|||2
-101||TPS26600|TPS26600|Industrial eFuse|R-PDSO-G16|Top|D1, D2||60V|2
-102||Header|HDR 4-way|4-way Angle PCB Header|Right Angle Male Header|Top|X4|||1
-103|732512201|SMA Right Angle PCB Mount RF Connector|SMA RF Connector|SMA Male Right-Angle PCM Connector|SMA Angle Female|Top|XW1, XW2|||2
-104||KX-13T|Quartz|Qurtz|SMT 5x7|Top|Q2|||1
-105||SMF33A|TVS|TVS Diode|SOD-123F|Top|VD1||33V|1
-106||N25Q128A13ESE40|N25Q128A|SPI Flash|SOIC8-W|Top|D12||2.7-3.6V|1
-107||24LC024|24LC024|I2C EEPROM|SOIC_SN8|Top|D11||2.5-5.5V|1
-108||2N7002|2N7002|N-Channel MOSFET 2N7002|SOT-23|Bottom|T1||60V|1
-109||ADG3301|ADG3301|Bidirectional Logic Level Translator|SOT-23-6|Top|D10||1.15 V to 5.5 V|1
-110|LP38692MP-1.8/NOPB||LP38692|Linear Regulator|SOT-223-5|Top|D20, D21||1.8V|2
-111|LP38692MP-3.3/NOPB||LP38692|Linear Regulator|SOT-223-5|Top|D14, D22||3.3V|2
-112|LP38692MP-5.0/NOPB||LP38692|Linear Regulator|SOT-223-5|Top|D19||5.0V|1
-113||HSMS-281C|HSMS-281x|RF Schottky Barrier Diodes|SOT-323|Top|D9|||1
-114|TPSD226K035R0200|Tantalum Capacitor|Cap Polarity|Tantalum Polarity SMD Capacitor|Tantalum_D|Bottom|C5, C6|22uF|35V|2
-115||CY7C1356C-250AXC|CY7C1356C|Pipelined SRAM with NoBL|TQFP-100|Top|D13||3.3 V|1
-116||XEL4030-332MEB|Inductor PWR|Magnetic-Core Inductor|XAL4030|Top|L4|3.3uH||1
-117||XEL4030-472MEB|Inductor PWR|Magnetic-Core Inductor|XAL4030|Top|L7|4.7uH||1
-118||XEL4030-682MEB|Inductor PWR|Magnetic-Core Inductor|XAL4030|Top|L5, L8|6.8uH||2
-119||XAL5050-103MEB|Inductor PWR|Magnetic-Core Inductor|XAL5050|Top|L6|10uH||1
-120||XAL5050-153MEB|Inductor PWR|Magnetic-Core Inductor|XAL5050|Top|L3|15uH||1
-121||XAL6060-223MEB|Inductor PWR|Magnetic-Core Inductor|XAL6060-223|Top|L1, L2|22uH||2
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|Field=Frequancy~String~Frequancy~100|Field=Frequency~String~Frequency~100|Field=Library Reference~String~Library Reference~100|Field=Name~String~Name~100|Field=P/N~String~P/N~100|Field=Package~String~Package~100|Field=Tolerance~String~Tolerance~100|Field=Type~String~Type~100|Field=Value~String~Value~100|Field=Voltage~String~Voltage~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Kintex_SDR.PrjPcb|ReportField=ProjectFullPath~D:\Altium_Projects\Kintex_SDR\Kintex_SDR.PrjPcb|ReportField=Title~Bill of Materials For Project [Kintex_SDR.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~145|ReportField=ReportTime~17:46:54|ReportField=ReportDate~27.01.2017|ReportField=ReportDateTime~27.01.2017 17:46:54|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=CurrentDate~27.01.2017|ReportField=CurrentTime~17:44:40|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Altium_Projects\Kintex_SDR\Clocking.SchDoc|ReportField=DocumentName~Clocking.SchDoc|ReportField=DocumentNumber~ПЛАС.ХХХХХХ.ХХХ ХХ|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~27.01.2017|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=False:CenterVertical=False:PrintScale=0.95:XCorrection=0.00:YCorrection=0.00:PrintKind=1:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=1:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=15:PrintQuality=600:MediaType=1:DitherType=10:PaperKind=A4:PrintScaleMode=1|ReportField=ProjectName~Kintex_SDR.PrjPcb|ReportField=Revision~|ReportField=Rule~Undefined|ReportField=SheetNumber~{}|ReportField=SheetTotal~{}|ReportField=Time~|ReportField=Title~{Наименование}|ReportField=DocumentType~{Документ}|ReportField=DocumentType1str~|ReportField=DocumentType2str~|ReportField=EngineerName~|ReportField=Letter1Column~{}|ReportField=Letter2Column~{}|ReportField=Letter3Column~{}|ReportField=Mass~{М.}|ReportField=NormInspection~{Н.контр.}|ReportField=ProcessInspection~{Т.контр.}|ReportField=Scale~{Мш.}|ReportField=Title1str~|ReportField=Title2str~|ReportField=DataSourceFileName~Kintex_SDR.PrjPcb|ReportField=DataSourceFullPath~D:\Altium_Projects\Kintex_SDR\Kintex_SDR.PrjPcb
+1|CAP|SMD Capacitor|C1, C6, C9, C21|C0402|CAP|4|||CAP||GRM155R71H104KE14J||10%|Ceramic Capacitor|0.1uF|50V
+2|CAP uF|SMD Capacitor|C2, C3, C4, C5, C11|C1210|CAP uF|5|||CAP uF||GRM32ER71H106KA12L||10%|Ceramic Capacitor|10uF|50V
+3|CAP|SMD Capacitor|C7, C8|C0402|CAP|2|||CAP||GRM155R71H103JA88D||5%|Ceramic Capacitor|0.01uF|50V
+4|CAP uF|SMD Capacitor|C10, C22|C0805|CAP uF|2|||CAP uF||GRM21BR61H475KE51L||20%|Ceramic Capacitor|4.7uF|50V
+5|CAP|SMD Capacitor|C12, C30|C0402|CAP|2|||CAP||GRM155R71H822KA88D||10%|Ceramic Capacitor|8.2nF|50V
+6|CAP|SMD Capacitor|C13|C0603|CAP|1|||CAP||GRM1885C1H472JA01D||5%|Ceramic Capacitor|4.7nF|50V
+7|CAP uF|SMD Capacitor|C14, C15, C23, C24|C0805|CAP uF|4|||CAP uF||GRM21BR71A106KE51L||10%|Ceramic Capacitor|10uF|10V
+8|CAP|SMD Capacitor|C16|C0402|CAP|1|||CAP||GRM1555C1H131JA01D||5%|Ceramic Capacitor|130pF|50V
+9|CAP uF|SMD Capacitor|C17, C20, C28, C29|C1210|CAP uF|4|||CAP uF||GRM32ER71A476KE15L||10%|Ceramic Capacitor|47uF|10V
+10|CAP|SMD Capacitor|C18, C19, C26, C27|C0603|CAP|4|||CAP||GRM188R71A474KA61D||10%|Ceramic Capacitor|0.47uF|10V
+11|CAP uF|SMD Capacitor|C25|C1210|CAP uF|1|||CAP uF||GRM32ER71E226KE15L||10%|Ceramic Capacitor|22uF|25V
+12|CAP|SMD Capacitor|C31|C0603|CAP|1|||CAP||GRM1885C1H242JA01D||5%|Ceramic Capacitor|2.4nF|50V
+13|CAP|SMD Capacitor|C32|C0402|CAP|1|||CAP||GRM1555C1H510JA01D||5%|Ceramic Capacitor|51pF|50V
+14|XC7K160T-2FBG484C|Xilinx 7-Series FPGA|D1|FBG484|XC7K160T-2FBG484C|1|||XC7K160T-2FBG484C|XC7K160T-2FBG484C||484 Ball FBG||||
+15|AD5663|Dual 12-/14-/16-Bit nanoDAC|D2, D3|MSOP-10|AD56x3R|2|||AD56x3R|AD5663RBRMZ-5||MSOP-10||Dual 12-/14-/16-Bit nanoDAC with 5 ppm/°C On-Chip Reference||2.7 V to 5.5 V
+16|AD7922|1 MSPS, 10-/12-Bit ADC|D4, D5|MSOP-8|AD79x2|2|||AD79x2|AD7922ARM||MSOP-8||2-Channel, 2.35 V to 5.25 V,1 MSPS, 10-/12-Bit ADC||2.35 V to 5.25 V
+17|TPS26600|Industrial eFuse|D6, D7|R-PDSO-G16|TPS26600|2|||TPS26600|TPS26600||16-Pin SOIC PowerPAD||Industrial eFuse||60V
+18|TPS54332|Step-Down DC-DC Converter|D8, D11|R-PDSO-G8|TPS54332|2||1MHz|TPS54332|TPS54332||8-Pin SOIC PowerPAD||Step-Down DC-DC Converter||
+19|LM26420X|Synchronous  DC-DC Converter|D9, D10|HTSSOP-20|LM26420X|2||2.2MHz|LM26420X|LM26420X||HTSSOP 20||Synchronous DC-DC Converter||
+20|24LC024|I2C EEPROM|D12|SOIC_SN8|24LC024|1|||24LC024|24LC024||SOIC-8||I2C EEPROM||2.5-5.5V
+21|N25Q128A|SPI Flash|D13|SOIC8-W|N25Q128A|1|||N25Q128A|N25Q128A13ESE40||SOIC||SPI Flash||2.7-3.6V
+22|DP83865|10/100/1000 Ethernet Physical Layer|D14|PQFP-128|DP83865|1|||DP83865|DP83865DVH||LQFP-128||0/100/1000 Ethernet Physical Layer||
+23|HSMS-281C|RF Schottky Barrier Diodes|D15|SOT-323|HSMS-281x|1|||HSMS-281x|HSMS-281C||SOT-323||||
+24|AD9516|14-Output Clock Generator|D16|LFCSP-64|AD9516|1|||AD9516|AD9516-4||LFSCSP-64||14-Output Clock Generator||2.5 V to 3.3 V
+25|ADG3301|Bidirectional Logic Level Translator|D17|SOT-23-6|ADG3301|1|||ADG3301|ADG3301||SOT-23-6||||1.15 V to 5.5 V
+26|LP38692|Linear Regulator|D18, D23, D24|SOT-223-5|LP38692|3|||LP38692|||||||
+27|AD9777|16-Bit, 160 MSPS  D/A Converter|D19|TQFP-80-EP|AD9777|1|||AD9777|AD9777BSV||80-pin TQFP||16-Bit, 160 MSPS 2x/4x/8x Interpolating Dual TxDAC+® D/A Converter||Single 3.3 V
+28|LTC2185|Dual 16-Bit, 125Msps  Low Power 3V ADC|D20|QFN-64|LTC2185|1|||LTC2185|LTC2185CUP#PBF-ND||64-Pin (9mm × 9mm) QFN||Dual 16-Bit, 105Msps  Low Power 3V ADC||Single 1.8V Supply
+29|LTC6409|Differential Amplifier/ADC   Driver|D21, D22|QFN-10|LTC6409|2|||LTC6409|LTC6409CUDB#TRMPBF||10-Lead 3mm ×2mm ×0.75mm QFN||Very high speed, low distortion, differential amplifier.||2.7V to 5.25V
+30|CY7C1356C|Pipelined SRAM with NoBL|D25|TQFP-100|CY7C1356C|1|||CY7C1356C|CY7C1356C-250AXC||100-pin TQFP (14 × 20 × 1.4 mm)||9-Mbit (512 K × 18)||3.3 V
+31|FUSE|Chip SMD Fuse|F1|Fuse|FUSE|1|||FUSE|Fast Fuse||SMD Omni Block||Fast Chip SMD Fuse||125V
+32|LED PACK|LED Pack For Front Panel|H1|LED_PACK|LED_PACK|1|||LED_PACK||WP934EB/2GD|Throu-Hole||2-level PCB-mount LED-indicator||
+33|LED|Typical RED, GREEN, YELLOW, AMBER GaAs LED|H2|LED_0402_Blue|LED|1|||LED|LED|APHHS1005QBC/D|0402||||
+34|Inductor PWR|Magnetic-Core Inductor|L1, L2|XAL5050|Inductor PWR|2|||Inductor PWR|XAL6060-223MEB|||±30%||22uH|
+35|Inductor PWR|Magnetic-Core Inductor|L3|XAL5050|Inductor PWR|1|||Inductor PWR|XAL5050-153MEB|||±30%||15uH|
+36|Inductor PWR|Magnetic-Core Inductor|L4|XAL4030|Inductor PWR|1|||Inductor PWR|XEL4030-332MEB|||±30%||3.3uH|
+37|Inductor PWR|Magnetic-Core Inductor|L5, L7|XAL4030|Inductor PWR|2|||Inductor PWR|XEL4030-682MEB|||±30%||6.8uH|
+38|Inductor PWR|Magnetic-Core Inductor|L6|XAL5050|Inductor PWR|1|||Inductor PWR|XAL5050-103MEB|||±30%||10uH|
+39|Inductor PWR|Magnetic-Core Inductor|L8|XAL4030|Inductor PWR|1|||Inductor PWR|XEL4030-472MEB|||±30%||4.7uH|
+40|Inductor LF|Inductor Power Lines|L9|L1210_Murata|Inductor LF|1||100MHz|Inductor LF|LQH32PN1R0NNC|||5%||100nH|
+41|Via|Mechanical Via|M1, M2|Mechanical_Via|Mechanical Via|2|||Mechanical Via|||||||
+42|25.000MHz|Qurtz|Q1|SMT 5x7|Quartz|1|25.000MHz||Quartz|KX-13T|||± 30 ppm|||
+43|CVHD-950|Crystal Oscillator|Q2|CVHD-950|CVHD-950|1||100 MHz|CVHD-950|CVHD-950-100.000||CVHD-950||||3.3V ±0.3V
+44|RES|SMD Resistor|R1, R2|R0402|RES|2|||RES|Chip SMD Resistor|ERJ-2RKF2003X||1%||200k|
+45|RES|SMD Resistor|R3, R4|R0402|RES|2|||RES|Chip SMD Resistor|ERJ-2RKF2742X||1%||27.4k|
+46|RES|SMD Resistor|R5, R7|R0402|RES|2|||RES|Chip SMD Resistor|ERJ-2RKF6041X||1%||6.04k|
+47|RES|SMD Resistor|R6, R8, R9, R18, R19, R21, R28, R29|R0402|RES|8|||RES|Chip SMD Resistor|ERJ-2RKF1022X||1%||10.2k|
+48|RES|SMD Resistor|R10, R24|R0402|RES|2|||RES|Chip SMD Resistor|ERJ-2RKF6653X||1%||665k|
+49|RES|SMD Resistor|R11|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF1581X||1%||1.58k|
+50|RES|SMD Resistor|R12, R13, R20, R22|R0402|RES|4|||RES|Chip SMD Resistor|ERJ-2GEJ5R1X||5%||5.1|
+51|RES|SMD Resistor|R14, R27|R0402|RES|2|||RES|Chip SMD Resistor|ERJ-2RKF3163X||1%||316k|
+52|RES|SMD Resistor|R15|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF2152X||1%||21.5k|
+53|RES|SMD Resistor|R16|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF9311X||1%||9.31k|
+54|RES|SMD Resistor|R17|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF5101X||1%||5.1k|
+55|RES|SMD Resistor|R23|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF3162X||1%||31.6k|
+56|RES|SMD Resistor|R25|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF1272X||1%||12.7k|
+57|RES|SMD Resistor|R26|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF1961X||1%||1.96k|
+58|RES|SMD Resistor|R30|R0402|RES|1|||RES|Chip SMD Resistor|ERJ-2RKF1912X||1%||19.1k|
+59|RES 4x0402|Chip Resistor Array|R31, R32, R33, R34, R35|EXN8V|RES 4x0402|5|||RES 4x0402|EXBN8V|EXB-N8V202JX||5%|0402 Array Concave Terminal|2k|
+60|RES 4x0402|Chip Resistor Array|R36|EXN8V|RES 4x0402|1|||RES 4x0402|EXBN8V|EXB-N8V911JX||5%|0402 Array Concave Terminal|910|
+61|RES 4x0402|Chip Resistor Array|R37, R39, R42, R43, R46, R48|EXN8V|RES 4x0402|6|||RES 4x0402|EXBN8V|EXB-N8V330JX||5%|0402 Array Concave Terminal|33|
+62|RES 4x0402|Chip Resistor Array|R38, R44|EXN8V|RES 4x0402|2|||RES 4x0402|EXBN8V|EXB-N8V510JX||5%|0402 Array Concave Terminal|51|
+63|RES 2x0402|Chip Resistor Array|R40, R41, R45, R47, R49|EX24V|RES 2x0402|5|||RES 2x0402|EXB24V|EXB-24V510JX||5%|0402 Array Convex Terminal|51|
+64|RES 2x0402|Chip Resistor Array|R50, R51, R52, R53|EX24V|RES 2x0402|4|||RES 2x0402|EXB24V|EXB-24V201JX||5%|0402 Array Convex Terminal|200|
+65|RES 2x0402|Chip Resistor Array|R54, R55|EX24V|RES 2x0402|2|||RES 2x0402|EXB24V|EXB-24V270JX||5%|0402 Array Convex Terminal|27|
+66|RES 2x0402|Chip Resistor Array|R56|EX24V|RES 2x0402|1|||RES 2x0402|EXB24V|EXB-24V132JX||5%|0402 Array Convex Terminal|1.3k|
+67|RES 2x0402|Chip Resistor Array|R57|EX24V|RES 2x0402|1|||RES 2x0402|EXB24V|EXB-24V821JX||5%|0402 Array Convex Terminal|820|
+68|RES 2x0402|Chip Resistor Array|R58|EX24V|RES 2x0402|1|||RES 2x0402|EXB24V|EXB-24V131JX||5%|0402 Array Convex Terminal|130|
+69|RES 2x0402|Chip Resistor Array|R59|EX24V|RES 2x0402|1|||RES 2x0402|EXB24V|EXB-24V820JX||5%|0402 Array Convex Terminal|82|
+70|Push Button|Tactile Switch (SMT)|SB1|B3FS-1000|Button|1|||Button|B3FS-1000||6x6 SMT||Tactile Switch (SMT)||24V
+71|SMF33A|TVS Diode|VD1|SOD-123F|TVS|1|||TVS|SMF33A||SOD-123F||||33V
+72|B320A|Schottky Diode|VD2, VD3|Diode_SMA|Shottky|2|||Shottky|B320A||SMC||||
+73|2N7002|N-Channel MOSFET 2N7002|VT1|SOT-23|2N7002|1|||2N7002|2N7002||SOT-23||SOT-23||60V
+74|DBoard|USRP DBoard|X1|DBoard|DBoard|1|||DBoard|1.00mm Pitch Mezzanine 714362164||||||
+75|miniFit|1x2 miniFit DC Power Connector|X2|2x2 PWR_HDR|HDR 1x2 miniFit|1|||HDR 1x2 miniFit|Mini-Fit Power Connector||||2x2||12V
+76|Connector DC|DC Power Connector 6mm|X3|DC_CONNECTOR|Connector DC|1|||Connector DC|DC Power Connector||Trough Hole||2.5mm*5.7mm||12V
+77|HDR Debug|10-pin 2.54mm pitch PCB Header|X4|JTAG Header|HDR Debug|1|||HDR Debug|JTAG Header 5x2||||Two Row Male Header 100mil Step||
+78|HDR 4-way|4-way Angle PCB Header|X5|Right Angle Male Header|HDR 4-way|1|||HDR 4-way|Header||Through Hole||Right Angle||
+79|0826-1X1T-23-F|Gigabit Ethernet Single Port with LEDs|X6|0826-1X1T-23-F|0826-1X1T-23-F|1|||0826-1X1T-23-F|0826-1X1T-23-F||||Gigabit Ethernet Single Port with LEDs||
+80|SMA|SMA Male Right-Angle PCM Connector|XW1, XW2|SMA Angle Female|SMA RF Connector|2|||SMA RF Connector|SMA Right Angle PCB Mount RF Connector|732512201|||SMA Jack, Right Angle||
