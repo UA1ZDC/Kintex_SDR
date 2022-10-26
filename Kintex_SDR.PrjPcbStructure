@@ -1,1 +1,6 @@
-Record=TopLevelDocument|FileName=Codec's.SchDoc
+Record=TopLevelDocument|FileName=Codec's.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Codec's.SchDoc|FileName=Configuration&Clocking&SRAM.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Codec's.SchDoc|FileName=DaughterBoard.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Codec's.SchDoc|FileName=Ethernet.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Codec's.SchDoc|FileName=FPGAPower.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Codec's.SchDoc|FileName=PowerSupply.SchDoc|SheetNumber= 
